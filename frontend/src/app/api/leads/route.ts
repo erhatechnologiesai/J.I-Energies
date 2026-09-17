@@ -1,18 +1,19 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
-const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
-
-// Server-side Supabase client with admin privileges
-const supabaseAdmin = (supabaseUrl && serviceRoleKey)
-  ? createClient(supabaseUrl, serviceRoleKey, {
-      auth: {
-        persistSession: false,
-        autoRefreshToken: false,
-      },
-    })
-  : null;
+function getSupabaseAdmin() {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://mxjnmzqlvddwvcxgxvdf.supabase.co";
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
+  if (!serviceRoleKey) {
+    throw new Error("SUPABASE_SERVICE_ROLE_KEY environment variable is not configured.");
+  }
+  return createClient(supabaseUrl, serviceRoleKey, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+    },
+  });
+}
 
 export async function POST(req: Request) {
   try {
@@ -98,6 +99,7 @@ export async function POST(req: Request) {
     }
 
     // 3. Insert into Supabase using admin client (bypasses RLS)
+    const supabaseAdmin = getSupabaseAdmin();
     const { data, error } = await supabaseAdmin.from("leads").insert([
       {
         full_name,
@@ -136,6 +138,7 @@ export async function GET(req: Request) {
   try {
     const { searchParams } = new URL(req.url);
     const status = searchParams.get("status");
+    const supabaseAdmin = getSupabaseAdmin();
 
     let query = supabaseAdmin.from("leads").select("*").order("created_at", { ascending: false });
     if (status && status !== "All") {
@@ -166,6 +169,7 @@ export async function PATCH(req: Request) {
     if (status) updateData.status = status;
     if (notes !== undefined) updateData.notes = notes;
 
+    const supabaseAdmin = getSupabaseAdmin();
     const { data, error } = await supabaseAdmin
       .from("leads")
       .update(updateData)
