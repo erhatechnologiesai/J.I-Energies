@@ -1,0 +1,383 @@
+[
+  {
+    "id": "alpsolar-1",
+    "title": "PULSE S4 Mini 4-6KW",
+    "series": "PULSE Series",
+    "category": "Inverters",
+    "highlight": "Popular Home Choice",
+    "subtitle": "Single-Phase Hybrid Inverter for Home Storage",
+    "capacity": "4 kW - 6 kW",
+    "specs": [
+      "Single Phase Output",
+      "Dual MPPT Tracking",
+      "Max Efficiency 97.6%",
+      "Wi-Fi App & Smart Monitoring",
+      "IP65 Weatherproof Enclosure"
+    ],
+    "recommended": "Standard 3kW to 6kW Residential Solar & Battery Backup",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/pulse-s4-mini.png"
+  },
+  {
+    "id": "alpsolar-2",
+    "title": "PULSE S4 6-10KW",
+    "series": "PULSE Series",
+    "category": "Inverters",
+    "highlight": "High Capacity",
+    "subtitle": "High-Power Single-Phase Hybrid Solar Inverter",
+    "capacity": "6 kW - 10 kW",
+    "specs": [
+      "Single Phase Output",
+      "15A High PV Input Current",
+      "Parallel Operation Support",
+      "Smart Load Management",
+      "UPS Fast Transfer < 10ms"
+    ],
+    "recommended": "Large Residential Homes & Heavy Appliance Loads",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/pulse-s4.png"
+  },
+  {
+    "id": "alpsolar-3",
+    "title": "PULSE S3",
+    "series": "PULSE Series",
+    "category": "Inverters",
+    "highlight": "",
+    "subtitle": "Advanced Residential Hybrid Storage Inverter",
+    "capacity": "3 kW - 8 kW",
+    "specs": [
+      "Off-Grid & Hybrid Dual Mode",
+      "Seamless UPS Switching",
+      "Lithium Battery Auto-Sync",
+      "Dual AC Output",
+      "Smart Energy Routing"
+    ],
+    "recommended": "Home Backup & Uninterrupted Power Supply",
+    "warranty": "5 Years Warranty",
+    "image": "/images/products/pulse-s3.png"
+  },
+  {
+    "id": "alpsolar-4",
+    "title": "PULSE S2",
+    "series": "PULSE Series",
+    "category": "Inverters",
+    "highlight": "",
+    "subtitle": "Compact Entry-Level Residential Storage Inverter",
+    "capacity": "3 kW - 5 kW",
+    "specs": [
+      "Ultra-Quiet Fanless Design",
+      "Touch Display Console",
+      "Overload Protection",
+      "App Monitoring"
+    ],
+    "recommended": "Small Residential Homes & Apartment Storage",
+    "warranty": "5 Years Warranty",
+    "image": "/images/products/pulse-s2.png"
+  },
+  {
+    "id": "alpsolar-5",
+    "title": "ROSA T2",
+    "series": "ROSA Series",
+    "category": "Inverters",
+    "highlight": "Three Phase",
+    "subtitle": "Three-Phase High-Voltage Hybrid Inverter",
+    "capacity": "8 kW - 15 kW",
+    "specs": [
+      "3-Phase 400V Output",
+      "High-Voltage Battery Compatible",
+      "100% Unbalanced Load Output",
+      "Dual MPPT Inputs",
+      "Grid Net-Metering Ready"
+    ],
+    "recommended": "3-Phase Luxury Villas & Small Commercial Sites",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/rosa-t2.png"
+  },
+  {
+    "id": "alpsolar-6",
+    "title": "ROSA G2",
+    "series": "ROSA Series",
+    "category": "Inverters",
+    "highlight": "",
+    "subtitle": "Three-Phase Grid-Tied Commercial Inverter",
+    "capacity": "10 kW - 25 kW",
+    "specs": [
+      "3-Phase Grid-Tie Topology",
+      "Zero Export Control Capable",
+      "Max Efficiency 98.4%",
+      "Integrated AFCI Protection"
+    ],
+    "recommended": "Commercial Rooftops, Factories & Net-Metering",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/rosa-g2.png"
+  },
+  {
+    "id": "alpsolar-7",
+    "title": "LIVO 16 PRO",
+    "series": "LIVO Series",
+    "category": "Batteries",
+    "highlight": "Best Seller",
+    "subtitle": "High-Capacity Stackable Lithium Battery Module",
+    "capacity": "16.38 kWh",
+    "specs": [
+      "51.2V LiFePO4 Chemistry",
+      "6,000+ Deep Cycles @ 80% DOD",
+      "Modular Stackable Expansion up to 131kWh",
+      "Smart BMS with CAN/RS485 Comms"
+    ],
+    "recommended": "Whole-House Energy Independence & Heavy Loads",
+    "warranty": "10 Years Life / 5 Years Warranty",
+    "image": "/images/products/livo-16-pro.png"
+  },
+  {
+    "id": "alpsolar-8",
+    "title": "LIVO 16E",
+    "series": "LIVO Series",
+    "category": "Batteries",
+    "highlight": "",
+    "subtitle": "High-Energy Density Floor-Standing Battery System",
+    "capacity": "16.0 kWh",
+    "specs": [
+      "Premium LiFePO4 Cells",
+      "High Discharge C-Rate",
+      "Built-in Automatic Fire Suppression",
+      "LCD Status Display"
+    ],
+    "recommended": "High Load Floor-Standing Home Energy Storage",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/livo-16e.png"
+  },
+  {
+    "id": "alpsolar-9",
+    "title": "LIVO-Y",
+    "series": "LIVO Series",
+    "category": "Batteries",
+    "highlight": "Wall Mount",
+    "subtitle": "Low-Voltage Wall-Mounted Lithium Battery",
+    "capacity": "5.12 kWh",
+    "specs": [
+      "51.2V 100Ah LiFePO4",
+      "Sleek Wall-Mount Slim Chassis",
+      "Parallel Support up to 16 Units (81.9kWh)",
+      "Maintenance-Free Lifespan"
+    ],
+    "recommended": "Compact Wall-Mounted Residential Storage",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/livo-y.png"
+  },
+  {
+    "id": "alpsolar-10",
+    "title": "COMO H5",
+    "series": "COMO Series",
+    "category": "Batteries",
+    "highlight": "",
+    "subtitle": "High-Voltage Stackable Energy Storage Cabinet",
+    "capacity": "5.12 kWh - 25.6 kWh",
+    "specs": [
+      "High Voltage DC (200V - 500V)",
+      "Plug-and-Play Quick Stacking",
+      "IP65 Outdoor Water & Dust Shield",
+      "Active Cell Balancing BMS"
+    ],
+    "recommended": "HV Inverter Pairing & Premium Villa Energy Storage",
+    "warranty": "5 - 10 Years Warranty",
+    "image": "/images/products/como-h5.png"
+  },
+  {
+    "id": "alpsolar-11",
+    "title": "PowerGoo 2000",
+    "series": "PowerGoo Series",
+    "category": "Batteries",
+    "highlight": "Portable",
+    "subtitle": "2000W Heavy-Duty Portable Solar Generator Power Station",
+    "capacity": "2048 Wh / 2000W AC Output",
+    "specs": [
+      "Pure Sine Wave AC Output",
+      "800W Fast Solar Input Recharging",
+      "Dual Wireless Charging Pads",
+      "Ultra-Safe LiFePO4 Battery Cells"
+    ],
+    "recommended": "Outdoor Camping, Field Work & Emergency Home Load",
+    "warranty": "2 Years Warranty",
+    "image": "/images/products/powergoo-2000.png"
+  },
+  {
+    "id": "alpsolar-12",
+    "title": "PowerGoo 1000",
+    "series": "PowerGoo Series",
+    "category": "Batteries",
+    "highlight": "",
+    "subtitle": "1000W Portable Energy Storage Power Station",
+    "capacity": "1024 Wh / 1000W AC Output",
+    "specs": [
+      "Compact Carry Handle Chassis",
+      "USB-C 100W PD Fast Charge Ports",
+      "Direct Solar Panel Hookup",
+      "Quiet Operation < 30dB"
+    ],
+    "recommended": "Mobile Electronics, Laptops & Small Home Backup",
+    "warranty": "2 Years Warranty",
+    "image": "/images/products/powergoo-1000.png"
+  },
+  {
+    "id": "alpsolar-13",
+    "title": "PO-01",
+    "series": "Accessories",
+    "category": "Batteries",
+    "highlight": "",
+    "subtitle": "Smart Power Distribution & Energy Management System (EMS)",
+    "capacity": "EMS Control Unit",
+    "specs": [
+      "Real-time Smart Power Metering",
+      "Automatic Generator Start Control",
+      "Grid / Solar / Battery Priority Routing",
+      "Remote App Fleet Control"
+    ],
+    "recommended": "Microgrid Management & Battery Fleet Synchronization",
+    "warranty": "3 Years Warranty",
+    "image": "/images/products/po-01.jpg"
+  },
+  {
+    "id": "alpsolar-14",
+    "title": "FlexCube H",
+    "series": "FlexCube Series",
+    "category": "Mobile ESS",
+    "highlight": "Trailer Mounted",
+    "subtitle": "Mobile Trailer Solar Hybrid Energy Storage System",
+    "capacity": "15 kW / 30 kWh - 60 kWh",
+    "specs": [
+      "Road-Ready Trailer Mounted",
+      "Hydraulic Fold-Out Solar Panel Array",
+      "Hybrid Diesel Generator Sync Option",
+      "GPS Tracking & Remote Telemetry"
+    ],
+    "recommended": "Disaster Relief, Remote Camps & Temporary Power",
+    "warranty": "5 Years Turnkey Warranty",
+    "image": "/images/products/flexcube-h.png"
+  },
+  {
+    "id": "alpsolar-15",
+    "title": "FlexCube T",
+    "series": "FlexCube Series",
+    "category": "Mobile ESS",
+    "highlight": "",
+    "subtitle": "Three-Phase Mobile Event & Construction Site ESS",
+    "capacity": "30 kW / 60 kWh",
+    "specs": [
+      "Heavy-Duty Forklift Pockets & Lifting Eyes",
+      "3-Phase 400V Industrial Output",
+      "Low-Noise Zero Emission Operation",
+      "Rapid Plug-and-Play Setup"
+    ],
+    "recommended": "Construction Sites, Outdoor Events & Off-Grid Projects",
+    "warranty": "5 Years Turnkey Warranty",
+    "image": "/images/products/flexcube-t.png"
+  },
+  {
+    "id": "alpsolar-16",
+    "title": "FlexCube E",
+    "series": "FlexCube Series",
+    "category": "Mobile ESS",
+    "highlight": "",
+    "subtitle": "Outdoor Emergency Backup Energy Storage Cabinet",
+    "capacity": "10 kW / 20 kWh",
+    "specs": [
+      "Integrated HVAC Temperature Control",
+      "Rapid Emergency Deployment",
+      "Automatic Grid Islanding Control",
+      "Rugged Weather Shield Cabinet"
+    ],
+    "recommended": "Telecom Towers, Hospitals & Critical Infrastructure",
+    "warranty": "5 Years Warranty",
+    "image": "/images/products/flexcube-e.png"
+  },
+  {
+    "id": "alpsolar-17",
+    "title": "FlexCube C",
+    "series": "FlexCube Series",
+    "category": "Mobile ESS",
+    "highlight": "",
+    "subtitle": "Compact Mobile Battery Power Box",
+    "capacity": "5 kW / 10 kWh",
+    "specs": [
+      "Heavy Duty Lockable All-Terrain Wheels",
+      "Built-in MPPT Solar Charge Controller",
+      "Multi-Socket AC & DC Output Panel"
+    ],
+    "recommended": "Mobile Repair Units & Remote Field Operations",
+    "warranty": "3 Years Warranty",
+    "image": "/images/products/flexcube-c.png"
+  },
+  {
+    "id": "alpsolar-18",
+    "title": "FlexCube A",
+    "series": "FlexCube Series",
+    "category": "Mobile ESS",
+    "highlight": "",
+    "subtitle": "All-Weather Off-Grid Microgrid Power Unit",
+    "capacity": "8 kW / 16 kWh",
+    "specs": [
+      "IP66 Extreme Weather Enclosure",
+      "Operating Range -20°C to +55°C",
+      "Direct Solar Panel Plug-In"
+    ],
+    "recommended": "Off-Grid Cabins, Agricultural Pumps & Remote Sites",
+    "warranty": "5 Years Warranty",
+    "image": "/images/products/flexcube-a.png"
+  },
+  {
+    "id": "alpsolar-19",
+    "title": "ATLAS P261L",
+    "series": "ATLAS Series",
+    "category": "C&I ESS",
+    "highlight": "Liquid Cooled",
+    "subtitle": "261kWh Industrial Liquid-Cooled BESS Cabinet",
+    "capacity": "261 kWh / 100 kW PCS",
+    "specs": [
+      "Advanced Liquid Cooling System",
+      "Cell Temp Uniformity ΔT < 2.5°C",
+      "Ultra-Safe LFP Battery Chemistry",
+      "Multi-Layer Aerosol Fire Suppression",
+      "BESS Cloud Analytics Platform"
+    ],
+    "recommended": "Factory Peak Shaving, Industrial Complexes & Microgrids",
+    "warranty": "10 Years Life Warranty",
+    "image": "/images/products/atlas-p261l.png"
+  },
+  {
+    "id": "alpsolar-20",
+    "title": "ATLAS H261L",
+    "series": "ATLAS Series",
+    "category": "C&I ESS",
+    "highlight": "",
+    "subtitle": "Containerized 261kWh High-Power C&I Energy Storage Container",
+    "capacity": "261 kWh / 125 kW Hybrid PCS",
+    "specs": [
+      "Pre-Engineered Turnkey Container",
+      "Integrated High-Power Hybrid PCS",
+      "Demand Charge Management System",
+      "Black Start Capable"
+    ],
+    "recommended": "C&I Solar Self-Consumption & Factory Power Stability",
+    "warranty": "10 Years Life Warranty",
+    "image": "/images/products/atlas-h261l.png"
+  },
+  {
+    "id": "alpsolar-21",
+    "title": "ATLAS H120A",
+    "series": "ATLAS Series",
+    "category": "C&I ESS",
+    "highlight": "",
+    "subtitle": "120kW / 240kWh Air-Cooled Commercial Energy Storage System",
+    "capacity": "240 kWh / 120 kW",
+    "specs": [
+      "Smart Air Duct Cooling Architecture",
+      "Modular Parallel Expansion up to 2.4MWh",
+      "Grid Frequency Regulation Ready",
+      "Compact Footprint Design"
+    ],
+    "recommended": "Commercial Buildings, EV Charging Hubs & Solar Parks",
+    "warranty": "10 Years Life Warranty",
+    "image": "/images/products/atlas-h120a.png"
+  }
+]
