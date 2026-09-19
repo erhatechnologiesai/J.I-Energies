@@ -16,7 +16,7 @@ from backend.app.config import (
 logger = logging.getLogger("ai_chat")
 
 INSTAGRAM_URL = "https://www.instagram.com/jienergies/"
-FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61594108574687"
+FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61594577424584"
 WHATSAPP_URL = f"https://wa.me/{SUPPORT_WHATSAPP}"
 
 ENGLISH_WORDS = {

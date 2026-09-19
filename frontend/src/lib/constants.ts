@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
     embedMultan: "https://maps.google.com/maps?q=30.2242589,71.5151427&t=&z=16&ie=UTF8&iwloc=&output=embed"
   },
   social: {
-    facebook: "https://www.facebook.com/profile.php?id=61594108574687",
+    facebook: "https://www.facebook.com/profile.php?id=61594577424584",
     instagram: "https://www.instagram.com/jienergies/",
     linkedin: "https://linkedin.com/company/jienergies",
     youtube: "https://youtube.com/@jienergies",
