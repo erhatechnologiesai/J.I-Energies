@@ -71,7 +71,7 @@ export const PARTNERSHIP_DATA = {
     name: "Alp Solar South Punjab",
     role: "Strategic Technology & Hardware Partner",
     tagline: "High-Yield Tier-1 Solar Panels & Hybrid Power Systems",
-    website: "https://alp-solar-south-punjab.vercel.app/",
+    website: "https://www.alpsolarsp.com/",
     logo: "/images/partners/alpsolar_partner_logo.png",
     image: "/images/partners/alpsolar_hybrid_storage.jpg",
     description: "Official strategic partnership delivering Tier-1 N-Type TOPCon solar modules, smart hybrid inverters, and high-discharge LiFePO4 battery storage engineered for Pakistan's demanding climate and grid conditions.",
