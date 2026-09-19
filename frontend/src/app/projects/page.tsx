@@ -23,7 +23,7 @@ const FALLBACK_PROJECTS: Project[] = [
     title: "Residential Project (15kW On-Grid)",
     category: "Residential",
     capacity_kw: 15.0,
-    location: "Lahore",
+    location: "Multan",
     image_url: "/images/projects/residential.jpg",
     completion_date: "2024-03-15",
     featured: true
@@ -33,7 +33,7 @@ const FALLBACK_PROJECTS: Project[] = [
     title: "Commercial Project (60kW Rooftop)",
     category: "Commercial",
     capacity_kw: 60.0,
-    location: "Karachi",
+    location: "Khanewal",
     image_url: "/images/projects/commercial.jpg",
     completion_date: "2024-02-10",
     featured: true
@@ -43,7 +43,7 @@ const FALLBACK_PROJECTS: Project[] = [
     title: "Industrial Project (250kW Factory)",
     category: "Industrial",
     capacity_kw: 250.0,
-    location: "Faisalabad",
+    location: "Vehari",
     image_url: "/images/projects/industrial.jpg",
     completion_date: "2024-06-01",
     featured: true
@@ -63,7 +63,7 @@ const FALLBACK_PROJECTS: Project[] = [
     title: "10kW Hybrid Residential Villa",
     category: "Residential",
     capacity_kw: 10.0,
-    location: "Multan",
+    location: "Rahim Yar Khan",
     image_url: "/images/projects/residential.jpg",
     completion_date: "2024-05-20",
     featured: false
@@ -73,7 +73,7 @@ const FALLBACK_PROJECTS: Project[] = [
     title: "35kW Commercial Plaza Solar",
     category: "Commercial",
     capacity_kw: 35.0,
-    location: "Islamabad",
+    location: "Dera Ghazi Khan",
     image_url: "/images/projects/commercial.jpg",
     completion_date: "2024-04-12",
     featured: false
@@ -113,10 +113,10 @@ export default function ProjectsPage() {
             <Zap className="w-3.5 h-3.5 text-solar" /> Authentic Installation Portfolio
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-navy-900 tracking-tight">
-            Our Projects Across Pakistan
+            Our Projects Across South Punjab
           </h1>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed font-normal">
-            Real installations across Lahore, Karachi, Islamabad, Multan, and Faisalabad with certified Net Metering approval.
+            Real installations across Multan, Bahawalpur, Khanewal, Vehari, and Rahim Yar Khan with certified Net Metering approval.
           </p>
         </div>
 

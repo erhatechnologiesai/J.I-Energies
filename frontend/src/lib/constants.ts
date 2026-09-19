@@ -46,23 +46,23 @@ export const DISCO_LIST = [
 
 export const PAKISTAN_CITIES = [
   "Multan",
+  "Bahawalpur",
+  "Khanewal",
+  "Vehari",
+  "Rahim Yar Khan",
+  "Dera Ghazi Khan",
+  "Muzaffargarh",
+  "Lodhran",
+  "Sadiqabad",
+  "Burewala",
+  "Mian Channu",
+  "Sahiwal",
+  "Okara",
   "Lahore",
   "Islamabad",
   "Karachi",
   "Rawalpindi",
-  "Faisalabad",
-  "Peshawar",
-  "Gujranwala",
-  "Sialkot",
-  "Bahawalpur",
-  "Sargodha",
-  "Sheikhupura",
-  "Rahim Yar Khan",
-  "Dera Ghazi Khan",
-  "Sahiwal",
-  "Okara",
-  "Muzaffargarh",
-  "Khanewal"
+  "Faisalabad"
 ];
 
 export const PARTNERSHIP_DATA = {

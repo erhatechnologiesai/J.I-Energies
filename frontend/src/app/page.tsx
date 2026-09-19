@@ -30,7 +30,7 @@ export default function HomePage() {
     {
       id: "residential",
       title: "Residential Project",
-      location: "Lahore",
+      location: "Multan",
       capacity: "15 kW On-Grid",
       image: "/images/projects/residential.jpg",
       savings: "Rs. 95,000/mo",
@@ -39,7 +39,7 @@ export default function HomePage() {
     {
       id: "commercial",
       title: "Commercial Project",
-      location: "Karachi",
+      location: "Khanewal",
       capacity: "60 kW Commercial",
       image: "/images/projects/commercial.jpg",
       savings: "Rs. 380,000/mo",
@@ -48,7 +48,7 @@ export default function HomePage() {
     {
       id: "industrial",
       title: "Industrial Project",
-      location: "Faisalabad",
+      location: "Vehari",
       capacity: "250 kW Industrial",
       image: "/images/projects/industrial.jpg",
       savings: "Rs. 1.6M/mo",

@@ -74,10 +74,10 @@ projects_data = [
         "featured": True
     },
     {
-        "title": "10kW Hybrid System with Lithium Storage",
+        "title": "15kW On-Grid Residential Solar Villa",
         "category": "Residential",
-        "capacity_kw": 10.0,
-        "location": "Bahria Town, Islamabad",
+        "capacity_kw": 15.0,
+        "location": "DHA Multan, Multan",
         "image_url": "/images/projects/project-10kw-bahria.png",
         "completion_date": "2024-05-20",
         "featured": True
@@ -86,7 +86,7 @@ projects_data = [
         "title": "60kW Commercial Rooftop Solar Plant",
         "category": "Commercial",
         "capacity_kw": 60.0,
-        "location": "Gulberg III, Lahore",
+        "location": "Civil Lines, Khanewal",
         "image_url": "/images/projects/project-60kw-gulberg.png",
         "completion_date": "2024-02-10",
         "featured": True
@@ -95,7 +95,7 @@ projects_data = [
         "title": "250kW Industrial Solar Plant (Textile Unit)",
         "category": "Industrial",
         "capacity_kw": 250.0,
-        "location": "Korangi Industrial Area, Karachi",
+        "location": "Industrial Area, Vehari",
         "image_url": "/images/projects/project-250kw-karachi.png",
         "completion_date": "2024-06-01",
         "featured": True
@@ -104,7 +104,7 @@ projects_data = [
         "title": "35kW Educational Campus Solar System",
         "category": "Commercial",
         "capacity_kw": 35.0,
-        "location": "Faisalabad",
+        "location": "Bahawalpur Cantt, Bahawalpur",
         "image_url": "/images/projects/project-35kw-faisalabad.png",
         "completion_date": "2024-04-12",
         "featured": False
