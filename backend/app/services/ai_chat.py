@@ -202,7 +202,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
             reply = (
                 "Hi! 🤖 Main J.I ENERGIES Solar AI Assistant hoon. Main aapki in tamam cheezon mein madad kar sakta hoon:\n\n"
                 "• Solar System Sizing & Bachat Calculator: Apna monthly bijli bill batayein (jaise 'mera bill 50,000 hai'), main foran required kW, Alp Solar panels ki taadad aur mahana bachat calculate kar doonga.\n"
-                "• Certified Hardware & Specs: Alp Solar South Punjab N-Type TOPCon 585W/610W panels aur Pulse Series Smart Inverters ki technical details aur 30-year warranty.\n"
+                "• Certified Hardware & Specs: Alp Solar N-Type TOPCon 585W/610W panels aur Pulse Series Smart Inverters ki technical details aur 30-year warranty.\n"
                 "• MEPCO Net Metering: Green meter lagwane ka mukammal tareeqa, sanctioned load, aur phase conversion application support.\n"
                 "• Commercial & Industrial Solar: Factories, plazas, aur cold storage ke liye mega-scale solar EPC solutions (Jiaxing LEGO benchmark quality).\n"
                 "• Agricultural Solar: Solar tubewell systems aur VFD pumps jo diesel ka kharcha khatam karte hain.\n"
@@ -213,7 +213,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
             reply = (
                 "Hi! 🤖 I am the J.I ENERGIES Solar Solutions Assistant. Here is how I can assist you:\n\n"
                 "• Solar Sizing & Savings Calculator: Share your monthly electricity bill (e.g. 'my bill is 50,000') to get instant kW recommendation, panel count, and estimated monthly savings.\n"
-                "• Tier-1 Hardware & Specifications: In-depth details on Alp Solar South Punjab N-Type TOPCon 585W/610W modules and Pulse Series Hybrid Inverters with 30-year warranties.\n"
+                "• Tier-1 Hardware & Specifications: In-depth details on Alp Solar N-Type TOPCon 585W/610W modules and Pulse Series Hybrid Inverters with 30-year warranties.\n"
                 "• MEPCO Net Metering: Complete Green Meter application guidance, sanctioned load rules, and DISCO liaison.\n"
                 "• Commercial, Industrial & Agriculture: Rooftop EPC for factories and commercial buildings, plus Solar Tubewell VFD systems for farms.\n"
                 "• Free Site Survey & Contact: Book a free site assessment, visit our Multan head office, or chat directly with a senior solar engineer on WhatsApp!\n\n"
@@ -247,7 +247,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
                 f"Recommended System: {kw} kW Solar Solution\n"
                 f"Monthly Consumption: ~{units:,} Units\n"
                 f"Estimated Generation: ~{int(kw * 120):,} Units / Month\n"
-                f"Solar Panels: {panel_count}x Alp Solar South Punjab 585W N-Type TOPCon Modules\n"
+                f"Solar Panels: {panel_count}x Alp Solar 585W N-Type TOPCon Modules\n"
                 f"Inverter: {kw}kW Smart On-Grid / Pulse Hybrid Inverter\n"
                 f"Expected Monthly Bachat: ~Rs. {monthly_saving:,} / Mahina\n"
                 f"Turnkey Budget Range: Rs. {est_cost_min:,} se Rs. {est_cost_max:,} (Complete Structure & Earthing)\n"
@@ -260,7 +260,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
                 f"Recommended System: {kw} kW Solar Solution\n"
                 f"Monthly Consumption: ~{units:,} Units\n"
                 f"Estimated Generation: ~{int(kw * 120):,} Units / Month\n"
-                f"Solar Panels: {panel_count}x Alp Solar South Punjab 585W N-Type TOPCon Modules\n"
+                f"Solar Panels: {panel_count}x Alp Solar 585W N-Type TOPCon Modules\n"
                 f"Inverter: {kw}kW Smart On-Grid / Pulse Hybrid Inverter\n"
                 f"Expected Monthly Savings: ~Rs. {monthly_saving:,} / Month\n"
                 f"Turnkey Budget Range: Rs. {est_cost_min:,} – Rs. {est_cost_max:,} (Complete EPC & Installation)\n"
@@ -282,19 +282,19 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
             "source": "calculator_engine"
         }
 
-    # 5. Alp Solar South Punjab & The LEGO Group Strategic Partnership
+    # 5. Alp Solar & The LEGO Group Strategic Partnership
     if any(k in lower for k in ["alp", "lego", "partner", "partners", "partnership", "south punjab", "jiaxing"]):
         if lang == "ur":
             reply = (
                 "Hi! 🤖 J.I ENERGIES ki strategic international partnerships ki details yeh hain:\n\n"
-                "• Alp Solar South Punjab: Hamare certified technology partner jo factory-certified Tier-1 N-Type TOPCon 585W/610W panels aur Pulse Series Smart Hybrid Inverters supply karte hain (30-year linear performance warranty ke sath).\n"
+                "• Alp Solar: Hamare certified technology partner jo factory-certified Tier-1 N-Type TOPCon 585W/610W panels aur Pulse Series Smart Hybrid Inverters supply karte hain (30-year linear performance warranty ke sath).\n"
                 "• The LEGO Group Jiaxing Factory Project: Landmark global industrial benchmark project jahan 20,000 solar panels (5+ football grounds barabar) se salana 6 GWh clean electricity generate hoti hai aur 4,000+ tonnes CO2 kam hoti hai.\n\n"
                 "Isi mega-scale industrial standard ki engineering quality hum Pakistan ke har residential aur commercial project par deliver karte hain!"
             )
         else:
             reply = (
                 "Hi! 🤖 Here are details on our strategic international alliances:\n\n"
-                "• Alp Solar South Punjab: Our certified technology partner supplying Tier-1 N-Type TOPCon 585W/610W modules and Pulse Series Smart Hybrid Inverters with 30-year performance warranties.\n"
+                "• Alp Solar: Our certified technology partner supplying Tier-1 N-Type TOPCon 585W/610W modules and Pulse Series Smart Hybrid Inverters with 30-year performance warranties.\n"
                 "• The LEGO Group Jiaxing Factory Installation: A benchmark mega-industrial project featuring 20,000 rooftop solar panels generating 6 GWh/year and offsetting 4,000+ tonnes of CO2.\n\n"
                 "J.I ENERGIES brings these proven international engineering standards to every project in Pakistan."
             )
@@ -305,7 +305,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
         if lang == "ur":
             reply = (
                 "Hi! 🤖 J.I ENERGIES ke certified solar hardware products yeh hain:\n\n"
-                "• Solar Panels: Alp Solar South Punjab N-Type TOPCon 585W & 610W Bifacial (22.8% cell efficiency, 30-year linear performance warranty)\n"
+                "• Solar Panels: Alp Solar N-Type TOPCon 585W & 610W Bifacial (22.8% cell efficiency, 30-year linear performance warranty)\n"
                 "• Hybrid Inverters: Pulse Series Smart Hybrid Inverters (5kW, 10kW, 15kW, 20kW, 25kW) with sub-10ms UPS transfer\n"
                 "• Battery Storage: High-discharge LiFePO4 Lithium Iron Phosphate Battery packs (6,000+ lifecycle cycles)\n"
                 "• Mounting Structures: Galvanized heavy-gauge elevated and rooftop structures with complete DC/AC lightning earthing\n\n"
@@ -314,7 +314,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
         else:
             reply = (
                 "Hi! 🤖 Here are the certified solar hardware products provided by J.I ENERGIES:\n\n"
-                "• Solar Panels: Alp Solar South Punjab N-Type TOPCon 585W & 610W Bifacial Modules (22.8% cell efficiency, 30-year linear warranty)\n"
+                "• Solar Panels: Alp Solar N-Type TOPCon 585W & 610W Bifacial Modules (22.8% cell efficiency, 30-year linear warranty)\n"
                 "• Smart Inverters: Pulse Series Hybrid Inverters (5kW to 25kW) with sub-10ms UPS backup switching\n"
                 "• Lithium Batteries: High-discharge LiFePO4 Lithium energy storage packs with 6,000+ lifecycles\n"
                 "• Structural Framing: Heavy-gauge hot-dipped galvanized structures engineered for high wind loads\n\n"
@@ -457,7 +457,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
             "Hi! 🤖 Main J.I ENERGIES Solar AI Assistant hoon.\n\n"
             "Main aapki in cheezon mein rehnumai kar sakta hoon:\n"
             "• Solar System Sizing: Apna monthly bijli bill batayein, main foran required kW aur mahana bachat calculate kar doonga.\n"
-            "• Certified Products: Alp Solar South Punjab N-Type 585W panels aur inverters ki specs.\n"
+            "• Certified Products: Alp Solar N-Type 585W panels aur inverters ki specs.\n"
             "• MEPCO Net Metering: Green meter lagwane ka procedure aur application filing.\n"
             "• Social & Contacts: Hamare official social media accounts aur Multan office address.\n\n"
             "Aap kya poochna chahenge?"
@@ -467,7 +467,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
             "Hi! 🤖 I am the J.I ENERGIES Solar Solutions Assistant.\n\n"
             "I can assist you with:\n"
             "• Solar Sizing & ROI: Tell me your monthly electricity bill to calculate the ideal system size and savings.\n"
-            "• Hardware Specifications: Alp Solar South Punjab N-Type 585W modules and smart inverters.\n"
+            "• Hardware Specifications: Alp Solar N-Type 585W modules and smart inverters.\n"
             "• Net Metering: Complete MEPCO green meter requirements and paperwork liaison.\n"
             "• Social & Office: Official social media channels and Multan office contact.\n\n"
             "How can I assist you today?"

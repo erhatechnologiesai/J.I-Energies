@@ -66,9 +66,9 @@ export const PAKISTAN_CITIES = [
 ];
 
 export const PARTNERSHIP_DATA = {
-  headline: "Partnership: Alp Solar South Punjab & The LEGO Group",
+  headline: "Partnership: Alp Solar & The LEGO Group",
   alpsSolar: {
-    name: "Alp Solar South Punjab",
+    name: "Alp Solar",
     role: "Strategic Technology & Hardware Partner",
     tagline: "High-Yield Tier-1 Solar Panels & Hybrid Power Systems",
     website: "https://www.alpsolarsp.com/",

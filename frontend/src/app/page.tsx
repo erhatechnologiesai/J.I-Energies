@@ -137,13 +137,13 @@ export default function HomePage() {
             <div className="space-y-3 max-w-3xl">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-solar/15 border border-solar/30 text-solar text-xs font-bold uppercase tracking-wider">
                 <Globe className="w-3.5 h-3.5" />
-                <span>Partnership: Alp Solar South Punjab &amp; The LEGO Group</span>
+                <span>Partnership: Alp Solar &amp; The LEGO Group</span>
               </div>
               <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-                Backed by Alp Solar South Punjab &amp; The LEGO Group Solar Alliance
+                Backed by Alp Solar &amp; The LEGO Group Solar Alliance
               </h2>
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed font-medium">
-                J.I ENERGIES operates under the strategic partnership of <strong>Alp Solar South Punjab</strong> and <strong>The LEGO Group</strong> (showcasing the benchmark <strong>20,000-panel</strong> rooftop solar project at LEGO&apos;s Jiaxing manufacturing facility)—bringing world-class engineering and supply-chain integrity to Pakistan.
+                J.I ENERGIES operates under the strategic partnership of <strong>Alp Solar</strong> and <strong>The LEGO Group</strong> (showcasing the benchmark <strong>20,000-panel</strong> rooftop solar project at LEGO&apos;s Jiaxing manufacturing facility)—bringing world-class engineering and supply-chain integrity to Pakistan.
               </p>
             </div>
 
@@ -154,7 +154,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/10 hover:bg-white/20 text-white text-xs font-bold rounded-xl border border-white/15 backdrop-blur-sm transition-all"
               >
-                <span>Alp Solar South Punjab Portal</span>
+                <span>Alp Solar Portal</span>
                 <ExternalLink className="w-3.5 h-3.5 text-solar" />
               </a>
               <a
@@ -278,7 +278,7 @@ export default function HomePage() {
                   <div className="relative w-28 h-12 bg-white rounded-xl p-1.5 flex items-center justify-center shrink-0">
                     <Image
                       src={PARTNERSHIP_DATA.alpsSolar.logo}
-                      alt="Alps Solar South Punjab"
+                      alt="Alp Solar"
                       fill
                       className="object-contain p-1"
                     />
@@ -301,12 +301,12 @@ export default function HomePage() {
                 <div className="relative h-44 rounded-2xl overflow-hidden border border-white/10 group">
                   <Image
                     src={PARTNERSHIP_DATA.alpsSolar.image}
-                    alt="Alps Solar Hybrid Energy Storage System"
+                    alt="Alp Solar Hybrid Energy Storage System"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-3">
-                    <span className="text-xs font-bold text-white">Alps Solar Smart Hybrid Storage (10kW – 25kW)</span>
+                    <span className="text-xs font-bold text-white">Alp Solar Smart Hybrid Storage (10kW – 25kW)</span>
                     <span className="text-[10px] text-solar">Sub-10ms UPS grade backup with high-discharge LiFePO4 cells</span>
                   </div>
                 </div>
@@ -329,7 +329,7 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-center"
                 >
-                  <span>Explore Alps Solar South Punjab Platform</span>
+                  <span>Explore Alp Solar Platform</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
               </div>
@@ -501,10 +501,10 @@ export default function HomePage() {
                 Certified Technology Partnership
               </span>
               <h2 className="text-2xl sm:text-4xl font-extrabold text-white leading-tight">
-                Alp Solar South Punjab N-Type TOPCon 585W
+                Alp Solar N-Type TOPCon 585W
               </h2>
               <p className="text-sm text-gray-300 leading-relaxed">
-                J.I ENERGIES is an official partner with <strong>Alp Solar South Punjab</strong> &amp; <strong>The LEGO Group</strong> solar benchmark, bringing factory-certified Tier-1 modules built for Pakistan&apos;s extreme summer temperatures.
+                J.I ENERGIES is an official partner with <strong>Alp Solar</strong> &amp; <strong>The LEGO Group</strong> solar benchmark, bringing factory-certified Tier-1 modules built for Pakistan&apos;s extreme summer temperatures.
               </p>
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div className="p-4 rounded-xl bg-navy-900 border border-navy-700">

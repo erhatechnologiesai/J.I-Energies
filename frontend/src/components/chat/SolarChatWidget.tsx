@@ -52,7 +52,7 @@ interface Message {
 const STARTER_SUGGESTIONS = [
   "⚡ Mera monthly bill Rs 50,000 hai, kitna system lagega?",
   "📱 Give me your social media accounts & contact details",
-  "💡 Alp Solar South Punjab N-Type 585W panels info",
+  "💡 Alp Solar N-Type 585W panels info",
   "📜 MEPCO Net Metering ka mukammal procedure?",
 ];
 
@@ -330,7 +330,7 @@ export function SolarChatWidget() {
                   </span>
                 </div>
                 <p className="text-[11px] text-gray-300 font-medium">
-                  Alp Solar South Punjab &amp; Engineering AI
+                  Alp Solar &amp; Engineering AI
                 </p>
               </div>
             </div>
@@ -373,7 +373,7 @@ export function SolarChatWidget() {
                     </div>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Aap mujh se apne bijli ke bill ke mutabiq System Size, Alp Solar South Punjab N-Type panels, MEPCO Net Metering, ya official social media &amp; contact channels ke baray mein pooch sakte hain!
+                    Aap mujh se apne bijli ke bill ke mutabiq System Size, Alp Solar N-Type panels, MEPCO Net Metering, ya official social media &amp; contact channels ke baray mein pooch sakte hain!
                   </p>
                 </div>
 

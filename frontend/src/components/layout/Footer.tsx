@@ -17,7 +17,7 @@ export function Footer() {
               CLEAN ENERGY. BRIGHTER FUTURE.
             </p>
             <p className="text-xs text-gray-400 max-w-sm leading-relaxed">
-              Pakistan&apos;s premier solar engineering &amp; power EPC company. Operating under strategic partnership with <strong>Alp Solar South Punjab</strong> &amp; <strong>The LEGO Group</strong> solar installation benchmark to deliver certified turnkey solar solutions.
+              Pakistan&apos;s premier solar engineering &amp; power EPC company. Operating under strategic partnership with <strong>Alp Solar</strong> &amp; <strong>The LEGO Group</strong> solar installation benchmark to deliver certified turnkey solar solutions.
             </p>
             <div className="pt-1 flex items-center gap-2 text-xs text-energy font-medium">
               <span className="w-2 h-2 rounded-full bg-energy animate-pulse" />
@@ -66,7 +66,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="px-2.5 py-1 rounded-lg bg-navy-850 hover:bg-navy-800 border border-navy-700 text-white hover:text-solar transition-colors inline-flex items-center gap-1 font-semibold"
                 >
-                  <span>Alp Solar South Punjab</span>
+                  <span>Alp Solar</span>
                   <ExternalLink className="w-2.5 h-2.5 text-solar" />
                 </a>
                 <span className="text-solar font-bold">&amp;</span>
@@ -100,7 +100,7 @@ export function Footer() {
           <div className="lg:col-span-3 space-y-3">
             <h4 className="font-bold text-white text-sm tracking-wide">Our Products</h4>
             <ul className="space-y-2 text-xs text-gray-300">
-              <li><Link href="/products" className="hover:text-solar transition-colors">Solar Panels (Alp Solar South Punjab N-Type)</Link></li>
+              <li><Link href="/products" className="hover:text-solar transition-colors">Solar Panels (Alp Solar N-Type)</Link></li>
               <li><Link href="/products" className="hover:text-solar transition-colors">On-Grid &amp; Hybrid Inverters</Link></li>
               <li><Link href="/products" className="hover:text-solar transition-colors">LiFePO4 Lithium Batteries</Link></li>
               <li><Link href="/solutions" className="hover:text-solar transition-colors">EPC &amp; Turnkey Installation</Link></li>

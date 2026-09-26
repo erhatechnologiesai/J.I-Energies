@@ -6,7 +6,7 @@ import { ShieldCheck, Award, Wrench, Users, CheckCircle2, ArrowRight, Sun, Zap, 
 
 export const metadata = {
   title: "About Us • J.I ENERGIES | Solar Energy & Power Solutions",
-  description: "Learn about J.I ENERGIES, Pakistan's engineering-led solar energy company, our Alp Solar South Punjab & The LEGO Group international supply partnership, and 25-year reliability commitment.",
+  description: "Learn about J.I ENERGIES, Pakistan's engineering-led solar energy company, our Alp Solar & The LEGO Group international supply partnership, and 25-year reliability commitment.",
 };
 
 export default function AboutPage() {
@@ -102,13 +102,13 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-solar/15 border border-solar/30 text-solar text-xs font-bold uppercase tracking-wider">
               <Globe className="w-3.5 h-3.5" />
-              <span>Partnership: Alp Solar South Punjab &amp; The LEGO Group</span>
+              <span>Partnership: Alp Solar &amp; The LEGO Group</span>
             </div>
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
-              Alp Solar South Punjab &amp; The LEGO Group Alliance
+              Alp Solar &amp; The LEGO Group Alliance
             </h2>
             <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-              J.I ENERGIES bridges international engineering benchmarks and Pakistan&apos;s clean energy demands. Through our alliance with <strong>Alp Solar South Punjab</strong> and benchmark global installations like the <strong>20,000-panel</strong> rooftop array at <strong>The LEGO Group</strong> Jiaxing manufacturing facility, we bring genuine Tier-1 quality to every project.
+              J.I ENERGIES bridges international engineering benchmarks and Pakistan&apos;s clean energy demands. Through our alliance with <strong>Alp Solar</strong> and benchmark global installations like the <strong>20,000-panel</strong> rooftop array at <strong>The LEGO Group</strong> Jiaxing manufacturing facility, we bring genuine Tier-1 quality to every project.
             </p>
           </div>
 

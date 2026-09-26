@@ -43,9 +43,9 @@ export function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold text-white hover:text-solar transition-colors inline-flex items-center gap-1"
-                title="Alp Solar South Punjab Official Portal"
+                title="Alp Solar Official Portal"
               >
-                <span>Alp Solar South Punjab</span>
+                <span>Alp Solar</span>
               </a>
               <span className="text-solar-400 font-bold">&amp;</span>
               <a
@@ -208,7 +208,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                     className="hover:text-solar-600 underline decoration-solar/40"
                   >
-                    Alp Solar South Punjab
+                    Alp Solar
                   </a>
                   <span className="text-solar-600 font-bold">&amp;</span>
                   <a
