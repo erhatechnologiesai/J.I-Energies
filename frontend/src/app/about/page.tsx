@@ -6,7 +6,7 @@ import { ShieldCheck, Award, Wrench, Users, CheckCircle2, ArrowRight, Sun, Zap, 
 
 export const metadata = {
   title: "About Us • J.I ENERGIES | Solar Energy & Power Solutions",
-  description: "Learn about J.I ENERGIES, Pakistan's engineering-led solar energy company, our Alp Solar & The LEGO Group international supply partnership, and 25-year reliability commitment.",
+  description: "Learn about J.I ENERGIES, Pakistan's engineering-led solar energy company, our Alp Solar & The LIGOO Group international supply partnership, and 25-year reliability commitment.",
 };
 
 export default function AboutPage() {
@@ -102,17 +102,17 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-solar/15 border border-solar/30 text-solar text-xs font-bold uppercase tracking-wider">
               <Globe className="w-3.5 h-3.5" />
-              <span>Partnership: Alp Solar &amp; The LEGO Group</span>
+              <span>Partnership: Alp Solar &amp; The LIGOO Group</span>
             </div>
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
-              Alp Solar &amp; The LEGO Group Alliance
+              Alp Solar &amp; The LIGOO Group Alliance
             </h2>
             <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-              J.I ENERGIES bridges international engineering benchmarks and Pakistan&apos;s clean energy demands. Through our alliance with <strong>Alp Solar</strong> and benchmark global installations like the <strong>20,000-panel</strong> rooftop array at <strong>The LEGO Group</strong> Jiaxing manufacturing facility, we bring genuine Tier-1 quality to every project.
+              J.I ENERGIES bridges international engineering benchmarks and Pakistan&apos;s clean energy demands. Through our alliance with <strong>Alp Solar</strong> and benchmark global installations like the <strong>20,000-panel</strong> rooftop array at <strong>The LIGOO Group</strong> Jiaxing manufacturing facility, we bring genuine Tier-1 quality to every project.
             </p>
           </div>
 
-          {/* Landmark Project Feature: The LEGO Group Jiaxing Factory */}
+          {/* Landmark Project Feature: The LIGOO Group Jiaxing Factory */}
           <div className="bg-navy-900/90 rounded-3xl border border-white/15 p-6 sm:p-10 shadow-2xl space-y-8">
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-white/10 pb-6">
               <div>
@@ -145,7 +145,7 @@ export default function AboutPage() {
                 <div className="relative h-48 sm:h-56 rounded-2xl overflow-hidden border border-white/10 group">
                   <Image
                     src={PARTNERSHIP_DATA.legoProject.image}
-                    alt="The LEGO Group Jiaxing Factory Model"
+                    alt="The LIGOO Group Jiaxing Factory Model"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -199,7 +199,7 @@ export default function AboutPage() {
                 <div className="relative w-28 h-12 bg-white rounded-xl p-1.5 flex items-center justify-center shrink-0">
                   <Image
                     src={PARTNERSHIP_DATA.alpsSolar.logo}
-                    alt="Alps Solar South Punjab"
+                    alt="Alp Solar"
                     fill
                     className="object-contain p-1"
                   />

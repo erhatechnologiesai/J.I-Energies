@@ -28,6 +28,6 @@ SUPPORT_EMAIL = "info@jienergies.com"
 PRIMARY_COLOR = "#0B2D5B"
 SECONDARY_COLOR = "#FFC107"
 ACCENT_COLOR = "#22A559"
-HEAD_OFFICE_ADDRESS = "MA Jinnah Road, Multan, Pakistan"
+HEAD_OFFICE_ADDRESS = "Alp Solar Sale and Service Center, MA Jinnah Road near Bank Al Habib, Chowk Kumhara, Multan"
 GOOGLE_MAPS_URL = "https://www.google.com/maps/place/30%C2%B013'27.3%22N+71%C2%B030'54.5%22E/@30.2248076,71.5088609,16.33z/data=!4m4!3m3!8m2!3d30.2242589!4d71.5151427"
 

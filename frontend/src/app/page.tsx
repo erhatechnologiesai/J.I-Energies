@@ -137,13 +137,13 @@ export default function HomePage() {
             <div className="space-y-3 max-w-3xl">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-solar/15 border border-solar/30 text-solar text-xs font-bold uppercase tracking-wider">
                 <Globe className="w-3.5 h-3.5" />
-                <span>Partnership: Alp Solar &amp; The LEGO Group</span>
+                <span>Partnership: Alp Solar &amp; The LIGOO Group</span>
               </div>
               <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-                Backed by Alp Solar &amp; The LEGO Group Solar Alliance
+                Backed by Alp Solar &amp; The LIGOO Group Solar Alliance
               </h2>
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed font-medium">
-                J.I ENERGIES operates under the strategic partnership of <strong>Alp Solar</strong> and <strong>The LEGO Group</strong> (showcasing the benchmark <strong>20,000-panel</strong> rooftop solar project at LEGO&apos;s Jiaxing manufacturing facility)—bringing world-class engineering and supply-chain integrity to Pakistan.
+                J.I ENERGIES operates under the strategic partnership of <strong>Alp Solar</strong> and <strong>The LIGOO Group</strong> (showcasing the benchmark <strong>20,000-panel</strong> rooftop solar project at LIGOO&apos;s Jiaxing manufacturing facility)—bringing world-class engineering and supply-chain integrity to Pakistan.
               </p>
             </div>
 
@@ -163,15 +163,15 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-solar hover:bg-solar-600 text-navy-950 text-xs font-black rounded-xl shadow-md transition-all"
               >
-                <span>The LEGO Group Solar Project</span>
+                <span>The LIGOO Group Solar Project</span>
                 <ExternalLink className="w-3.5 h-3.5 text-navy-950" />
               </a>
             </div>
           </div>
 
-          {/* Dual Grid: LEGO Project Showcase & Alps Solar Technology */}
+          {/* Dual Grid: LIGOO Project Showcase & Alps Solar Technology */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 relative z-10">
-            {/* Left: The LEGO Group Jiaxing Factory Landmark Project (7 cols) */}
+            {/* Left: The LIGOO Group Jiaxing Factory Landmark Project (7 cols) */}
             <div className="lg:col-span-7 bg-navy-900/90 rounded-3xl border border-white/15 p-6 sm:p-8 space-y-6 flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="flex items-center justify-between gap-3">
@@ -198,7 +198,7 @@ export default function HomePage() {
                   <div className="relative h-44 rounded-2xl overflow-hidden border border-white/10 bg-navy-950 group">
                     <Image
                       src={PARTNERSHIP_DATA.legoProject.image}
-                      alt="The LEGO Group Jiaxing Factory Solar Rooftop Model"
+                      alt="The LIGOO Group Jiaxing Factory Solar Rooftop Model"
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
@@ -212,7 +212,7 @@ export default function HomePage() {
                   <div className="relative h-44 rounded-2xl overflow-hidden border border-white/10 bg-navy-950 group">
                     <Image
                       src={PARTNERSHIP_DATA.legoProject.sitePhoto}
-                      alt="LEGO Solar Panels Installation on Factory Roof"
+                      alt="LIGOO Solar Panels Installation on Factory Roof"
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
@@ -247,7 +247,7 @@ export default function HomePage() {
               </div>
 
               <div className="pt-2 flex items-center justify-between text-xs text-gray-400">
-                <span>Source: Official LEGO® Group Press Release</span>
+                <span>Source: Official LIGOO® Group Press Release</span>
                 <a
                   href={PARTNERSHIP_DATA.legoProject.articleUrl}
                   target="_blank"
@@ -504,7 +504,7 @@ export default function HomePage() {
                 Alp Solar N-Type TOPCon 585W
               </h2>
               <p className="text-sm text-gray-300 leading-relaxed">
-                J.I ENERGIES is an official partner with <strong>Alp Solar</strong> &amp; <strong>The LEGO Group</strong> solar benchmark, bringing factory-certified Tier-1 modules built for Pakistan&apos;s extreme summer temperatures.
+                J.I ENERGIES is an official partner with <strong>Alp Solar</strong> &amp; <strong>The LIGOO Group</strong> solar benchmark, bringing factory-certified Tier-1 modules built for Pakistan&apos;s extreme summer temperatures.
               </p>
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div className="p-4 rounded-xl bg-navy-900 border border-navy-700">

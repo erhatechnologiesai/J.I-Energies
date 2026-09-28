@@ -204,7 +204,7 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
                 "• Solar System Sizing & Bachat Calculator: Apna monthly bijli bill batayein (jaise 'mera bill 50,000 hai'), main foran required kW, Alp Solar panels ki taadad aur mahana bachat calculate kar doonga.\n"
                 "• Certified Hardware & Specs: Alp Solar N-Type TOPCon 585W/610W panels aur Pulse Series Smart Inverters ki technical details aur 30-year warranty.\n"
                 "• MEPCO Net Metering: Green meter lagwane ka mukammal tareeqa, sanctioned load, aur phase conversion application support.\n"
-                "• Commercial & Industrial Solar: Factories, plazas, aur cold storage ke liye mega-scale solar EPC solutions (Jiaxing LEGO benchmark quality).\n"
+                "• Commercial & Industrial Solar: Factories, plazas, aur cold storage ke liye mega-scale solar EPC solutions (Jiaxing LIGOO benchmark quality).\n"
                 "• Agricultural Solar: Solar tubewell systems aur VFD pumps jo diesel ka kharcha khatam karte hain.\n"
                 "• Contact & Free Survey: Multan head office visit, free rooftop site survey, ya WhatsApp par direct engineer se rabta!\n\n"
                 "Aap in mein se kis cheez ke baray mein rehnumai chahte hain?"
@@ -282,20 +282,20 @@ def generate_expert_response(message: str, lang: str) -> Dict[str, Any]:
             "source": "calculator_engine"
         }
 
-    # 5. Alp Solar & The LEGO Group Strategic Partnership
-    if any(k in lower for k in ["alp", "lego", "partner", "partners", "partnership", "south punjab", "jiaxing"]):
+    # 5. Alp Solar & The LIGOO Group Strategic Partnership
+    if any(k in lower for k in ["alp", "ligoo", "lego", "partner", "partners", "partnership", "south punjab", "jiaxing"]):
         if lang == "ur":
             reply = (
                 "Hi! 🤖 J.I ENERGIES ki strategic international partnerships ki details yeh hain:\n\n"
                 "• Alp Solar: Hamare certified technology partner jo factory-certified Tier-1 N-Type TOPCon 585W/610W panels aur Pulse Series Smart Hybrid Inverters supply karte hain (30-year linear performance warranty ke sath).\n"
-                "• The LEGO Group Jiaxing Factory Project: Landmark global industrial benchmark project jahan 20,000 solar panels (5+ football grounds barabar) se salana 6 GWh clean electricity generate hoti hai aur 4,000+ tonnes CO2 kam hoti hai.\n\n"
+                "• The LIGOO Group Jiaxing Factory Project: Landmark global industrial benchmark project jahan 20,000 solar panels (5+ football grounds barabar) se salana 6 GWh clean electricity generate hoti hai aur 4,000+ tonnes CO2 kam hoti hai.\n\n"
                 "Isi mega-scale industrial standard ki engineering quality hum Pakistan ke har residential aur commercial project par deliver karte hain!"
             )
         else:
             reply = (
                 "Hi! 🤖 Here are details on our strategic international alliances:\n\n"
                 "• Alp Solar: Our certified technology partner supplying Tier-1 N-Type TOPCon 585W/610W modules and Pulse Series Smart Hybrid Inverters with 30-year performance warranties.\n"
-                "• The LEGO Group Jiaxing Factory Installation: A benchmark mega-industrial project featuring 20,000 rooftop solar panels generating 6 GWh/year and offsetting 4,000+ tonnes of CO2.\n\n"
+                "• The LIGOO Group Jiaxing Factory Installation: A benchmark mega-industrial project featuring 20,000 rooftop solar panels generating 6 GWh/year and offsetting 4,000+ tonnes of CO2.\n\n"
                 "J.I ENERGIES brings these proven international engineering standards to every project in Pakistan."
             )
         return {"reply": reply, "recommendation": None, "channels": None, "source": "partnership_kb"}

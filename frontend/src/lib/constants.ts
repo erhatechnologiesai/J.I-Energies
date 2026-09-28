@@ -14,7 +14,7 @@ export const SITE_CONFIG = {
   whatsappNumber: "923023333499",
   email: "info@jienergies.com",
   addresses: {
-    multan: "J.I ENERGIES Head Office, MA Jinnah Road, Multan, Pakistan",
+    multan: "Alp Solar Sale and Service Center, MA Jinnah Road near Bank Al Habib, Chowk Kumhara, Multan",
     lahore: "Gulberg III / DHA Phase 5, Lahore, Pakistan"
   },
   maps: {
@@ -66,7 +66,7 @@ export const PAKISTAN_CITIES = [
 ];
 
 export const PARTNERSHIP_DATA = {
-  headline: "Partnership: Alp Solar & The LEGO Group",
+  headline: "Partnership: Alp Solar & The LIGOO Group",
   alpsSolar: {
     name: "Alp Solar",
     role: "Strategic Technology & Hardware Partner",
@@ -83,9 +83,9 @@ export const PARTNERSHIP_DATA = {
     ]
   },
   legoProject: {
-    title: "The LEGO Group Jiaxing Factory Solar Project",
+    title: "The LIGOO Group Jiaxing Factory Solar Project",
     subtitle: "Landmark International Mega-Industrial Reference",
-    company: "The LEGO Group",
+    company: "The LIGOO Group",
     location: "Jiaxing, Zhejiang",
     articleUrl: "https://www.lego.com/en-us/aboutus/news/2019/october/jiaxing-factory-solar-panels",
     image: "/images/partners/lego_jiaxing_factory_model.png",
@@ -93,7 +93,7 @@ export const PARTNERSHIP_DATA = {
     quote: {
       text: "By installing solar panels at the factory in China, we can utilise clean solar energy directly at our manufacturing site. We will install 20,000 solar panels covering an area equivalent to more than five football fields... reducing CO2 emissions by more than 4,000 tonnes annually.",
       author: "Tim Brooks",
-      role: "Vice President, Environmental Sustainability at The LEGO Group"
+      role: "Vice President, Environmental Sustainability at The LIGOO Group"
     },
     metrics: [
       { label: "Solar Panels Installed", value: "20,000 Panels", detail: "High-density rooftop array" },

@@ -223,7 +223,7 @@ export default function SolutionsPage() {
                   Proven Mega-Scale Industrial Pedigree
                 </div>
                 <p className="text-xs text-gray-200 leading-relaxed">
-                  Backed by international reference installations including <strong>20,000 solar panels (6 GWh/year)</strong> at The LEGO Group Jiaxing manufacturing facility.
+                  Backed by international reference installations including <strong>20,000 solar panels (6 GWh/year)</strong> at The LIGOO Group Jiaxing manufacturing facility.
                 </p>
               </div>
             </div>

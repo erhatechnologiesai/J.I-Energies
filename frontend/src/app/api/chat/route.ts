@@ -123,7 +123,7 @@ function getSocialChannels() {
     {
       name: "Office",
       label: "Head Office & Location",
-      handle: "MA Jinnah Road, Multan, Pakistan",
+      handle: "Alp Solar Sale and Service Center, MA Jinnah Road near Bank Al Habib, Chowk Kumhara, Multan",
       url: SITE_CONFIG.maps.multan,
       type: "maps",
     },
@@ -160,7 +160,7 @@ export async function POST(req: Request) {
     if (helpKeywords.some((k) => lower.includes(k)) && !bill) {
       const reply =
         lang === "ur"
-          ? "Hi! 🤖 Main J.I ENERGIES Solar AI Assistant hoon. Main aapki in tamam cheezon mein madad kar sakta hoon:\n\n• Solar System Sizing & Bachat Calculator: Apna monthly bijli bill batayein (jaise 'mera bill 50,000 hai'), main foran required kW, Alp Solar panels ki taadad aur mahana bachat calculate kar doonga.\n• Certified Hardware & Specs: Alp Solar N-Type TOPCon 585W/610W panels aur Pulse Series Smart Inverters ki technical details aur 30-year warranty.\n• MEPCO Net Metering: Green meter lagwane ka mukammal tareeqa, sanctioned load, aur phase conversion application support.\n• Commercial & Industrial Solar: Factories, plazas, aur cold storage ke liye mega-scale solar EPC solutions (Jiaxing LEGO benchmark quality).\n• Agricultural Solar: Solar tubewell systems aur VFD pumps jo diesel ka kharcha khatam karte hain.\n• Contact & Free Survey: Multan head office visit, free rooftop site survey, ya WhatsApp par direct engineer se rabta!\n\nAap in mein se kis cheez ke baray mein rehnumai chahte hain?"
+          ? "Hi! 🤖 Main J.I ENERGIES Solar AI Assistant hoon. Main aapki in tamam cheezon mein madad kar sakta hoon:\n\n• Solar System Sizing & Bachat Calculator: Apna monthly bijli bill batayein (jaise 'mera bill 50,000 hai'), main foran required kW, Alp Solar panels ki taadad aur mahana bachat calculate kar doonga.\n• Certified Hardware & Specs: Alp Solar N-Type TOPCon 585W/610W panels aur Pulse Series Smart Inverters ki technical details aur 30-year warranty.\n• MEPCO Net Metering: Green meter lagwane ka mukammal tareeqa, sanctioned load, aur phase conversion application support.\n• Commercial & Industrial Solar: Factories, plazas, aur cold storage ke liye mega-scale solar EPC solutions (Jiaxing LIGOO benchmark quality).\n• Agricultural Solar: Solar tubewell systems aur VFD pumps jo diesel ka kharcha khatam karte hain.\n• Contact & Free Survey: Multan head office visit, free rooftop site survey, ya WhatsApp par direct engineer se rabta!\n\nAap in mein se kis cheez ke baray mein rehnumai chahte hain?"
           : "Hi! 🤖 I am the J.I ENERGIES Solar Solutions Assistant. Here is how I can assist you:\n\n• Solar Sizing & Savings Calculator: Share your monthly electricity bill (e.g. 'my bill is 50,000') to get instant kW recommendation, panel count, and estimated monthly savings.\n• Tier-1 Hardware & Specifications: In-depth details on Alp Solar N-Type TOPCon 585W/610W modules and Pulse Series Hybrid Inverters with 30-year warranties.\n• MEPCO Net Metering: Complete Green Meter application guidance, sanctioned load rules, and DISCO liaison.\n• Commercial, Industrial & Agriculture: Rooftop EPC for factories and commercial buildings, plus Solar Tubewell VFD systems for farms.\n• Free Site Survey & Contact: Book a free site assessment, visit our Multan head office, or chat directly with a senior solar engineer on WhatsApp!\n\nWhat would you like assistance with today?";
       return NextResponse.json({ reply, channels: null, recommendation: null, source: "capabilities_kb" });
     }
@@ -206,12 +206,12 @@ export async function POST(req: Request) {
       });
     }
 
-    // 5. Alp Solar & The LEGO Group Partnership
-    if (["alp", "lego", "partner", "partners", "partnership", "south punjab", "jiaxing"].some((k) => lower.includes(k))) {
+    // 5. Alp Solar & The LIGOO Group Partnership
+    if (["alp", "ligoo", "lego", "partner", "partners", "partnership", "south punjab", "jiaxing"].some((k) => lower.includes(k))) {
       const reply =
         lang === "ur"
-          ? "Hi! 🤖 J.I ENERGIES ki strategic international partnerships ki details yeh hain:\n\n• Alp Solar: Hamare certified technology partner jo factory-certified Tier-1 N-Type TOPCon 585W/610W panels aur Pulse Series Smart Hybrid Inverters supply karte hain (30-year linear performance warranty ke sath).\n• The LEGO Group Jiaxing Factory Project: Landmark global industrial benchmark project jahan 20,000 solar panels (5+ football grounds barabar) se salana 6 GWh clean electricity generate hoti hai aur 4,000+ tonnes CO2 kam hoti hai.\n\nIsi mega-scale industrial standard ki engineering quality hum Pakistan ke har residential aur commercial project par deliver karte hain!"
-          : "Hi! 🤖 Here are details on our strategic international alliances:\n\n• Alp Solar: Our certified technology partner supplying Tier-1 N-Type TOPCon 585W/610W modules and Pulse Series Smart Hybrid Inverters with 30-year performance warranties.\n• The LEGO Group Jiaxing Factory Installation: A benchmark mega-industrial project featuring 20,000 rooftop solar panels generating 6 GWh/year and offsetting 4,000+ tonnes of CO2.\n\nJ.I ENERGIES brings these proven international engineering standards to every project in Pakistan.";
+          ? "Hi! 🤖 J.I ENERGIES ki strategic international partnerships ki details yeh hain:\n\n• Alp Solar: Hamare certified technology partner jo factory-certified Tier-1 N-Type TOPCon 585W/610W panels aur Pulse Series Smart Hybrid Inverters supply karte hain (30-year linear performance warranty ke sath).\n• The LIGOO Group Jiaxing Factory Project: Landmark global industrial benchmark project jahan 20,000 solar panels (5+ football grounds barabar) se salana 6 GWh clean electricity generate hoti hai aur 4,000+ tonnes CO2 kam hoti hai.\n\nIsi mega-scale industrial standard ki engineering quality hum Pakistan ke har residential aur commercial project par deliver karte hain!"
+          : "Hi! 🤖 Here are details on our strategic international alliances:\n\n• Alp Solar: Our certified technology partner supplying Tier-1 N-Type TOPCon 585W/610W modules and Pulse Series Smart Hybrid Inverters with 30-year performance warranties.\n• The LIGOO Group Jiaxing Factory Installation: A benchmark mega-industrial project featuring 20,000 rooftop solar panels generating 6 GWh/year and offsetting 4,000+ tonnes of CO2.\n\nJ.I ENERGIES brings these proven international engineering standards to every project in Pakistan.";
       return NextResponse.json({ reply, recommendation: null, channels: null, source: "partnership_kb" });
     }
 

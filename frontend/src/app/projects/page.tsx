@@ -216,7 +216,7 @@ export default function ProjectsPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-solar hover:bg-solar-600 text-navy-950 text-xs font-black rounded-xl shadow transition-all"
               >
-                <span>LEGO® Official Newsroom</span>
+                <span>LIGOO® Official Newsroom</span>
                 <ExternalLink className="w-3.5 h-3.5 text-navy-950" />
               </a>
               <a
@@ -225,7 +225,7 @@ export default function ProjectsPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/10 hover:bg-white/20 text-white text-xs font-bold rounded-xl border border-white/15 transition-all"
               >
-                <span>Alps Solar Partner Portal</span>
+                <span>Alp Solar Partner Portal</span>
                 <ExternalLink className="w-3.5 h-3.5 text-solar" />
               </a>
             </div>
@@ -236,7 +236,7 @@ export default function ProjectsPage() {
               <div className="relative h-48 sm:h-56 rounded-2xl overflow-hidden border border-white/10 bg-navy-950 group">
                 <img
                   src={PARTNERSHIP_DATA.legoProject.image}
-                  alt="LEGO Jiaxing Factory Solar Model"
+                  alt="LIGOO Jiaxing Factory Solar Model"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3">
@@ -246,7 +246,7 @@ export default function ProjectsPage() {
               <div className="relative h-48 sm:h-56 rounded-2xl overflow-hidden border border-white/10 bg-navy-950 group">
                 <img
                   src={PARTNERSHIP_DATA.legoProject.sitePhoto}
-                  alt="LEGO Factory Solar Panels Array"
+                  alt="LIGOO Factory Solar Panels Array"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3">

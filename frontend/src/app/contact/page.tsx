@@ -397,7 +397,7 @@ export default function ContactPage() {
                     allowFullScreen={false}
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="JIENERGIES Head Office - MA Jinnah Road, Multan"
+                    title="JIENERGIES Head Office - Alp Solar Sale & Service Center, Multan"
                   />
                 </div>
                 <a

@@ -53,9 +53,9 @@ export function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold text-white hover:text-solar transition-colors inline-flex items-center gap-1"
-                title="The LEGO Group Jiaxing Factory Solar Project"
+                title="The LIGOO Group Jiaxing Factory Solar Project"
               >
-                <span>The LEGO Group</span>
+                <span>The LIGOO Group</span>
               </a>
             </div>
             <span className="text-gray-500">|</span>
@@ -217,7 +217,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                     className="hover:text-solar-600 underline decoration-solar/40"
                   >
-                    The LEGO Group
+                    The LIGOO Group
                   </a>
                 </div>
               </div>
